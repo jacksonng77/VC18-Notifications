@@ -1,0 +1,74 @@
+{
+  "version": "2.1.2",
+  "name": "onesignal-cordova-plugin",
+  "cordova_name": "OneSignal Push Notifications",
+  "description": "OneSignal is a high volume Push Notification service for mobile apps. In addition to basic notification delivery, OneSignal also provides tools to localize, target, schedule, and automate notifications that you send.",
+  "license": "MIT",
+  "keywords": [
+    "push",
+    "notification",
+    "push notification",
+    "push notifications",
+    "apns",
+    "gcm",
+    "adm",
+    "retention",
+    "messaging",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-amazon-fireos"
+  ],
+  "platforms": [
+    "android",
+    "ios",
+    "windows",
+    "amazon-fireos"
+  ],
+  "engines": [
+    {
+      "name": "cordova-android",
+      "version": ">=4.0.0"
+    },
+    {
+      "name": "apple-xcode",
+      "version": ">=8.0.0"
+    },
+    {
+      "name": "apple-ios",
+      "version": ">=7.0.0"
+    },
+    {
+      "name": "cordova",
+      "version": ">=6.4.0"
+    },
+    {
+      "name": "cordova-ios",
+      "version": ">=4.3.0"
+    }
+  ],
+  "cordova": {
+    "id": "onesignal-cordova-plugin",
+    "platforms": [
+      "android",
+      "ios",
+      "windows",
+      "amazon-fireos"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onesignal/OneSignal-Cordova-SDK.git"
+  },
+  "author": {
+    "name": "Josh Kasten"
+  },
+  "bugs": {
+    "url": "https://github.com/onesignal/OneSignal-Cordova-SDK/issues"
+  },
+  "homepage": "https://github.com/onesignal/OneSignal-Cordova-SDK#readme",
+  "readme": "### OneSignal Cordova Push Notification Plugin\r\n[![npm version](https://img.shields.io/npm/v/onesignal-cordova-plugin.svg)](https://www.npmjs.com/package/onesignal-cordova-plugin)\r\n[![npm downloads](https://img.shields.io/npm/dm/onesignal-cordova-plugin.svg)](https://www.npmjs.com/package/onesignal-cordova-plugin)\r\n\r\nOneSignal is a free push notification service for mobile apps. This plugin makes it easy to integrate your PhoneGap CLI, PhoneGap Build, Cordova, Ionic, Intel XDK or Sencha Touch app with OneSignal. Supports Android, iOS, Windows Phone 8.1 (WP8.1), and Amazon's Fire OS platforms.\r\n\r\n- See https://documentation.onesignal.com/docs/phonegap-sdk for setup documentation.\r\n",
+  "readmeFilename": "README.md",
+  "_id": "onesignal-cordova-plugin@2.1.2",
+  "_from": "onesignal-cordova-plugin@*"
+}

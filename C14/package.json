@@ -1,0 +1,25 @@
+{
+    "name": "C14",
+    "version": "1.0.0",
+    "private": true,
+    "dependencies": {
+        "cordova-plugin-camera": "~2.4.1",
+        "cordova-plugin-compat": "~1.1.0",
+        "cordova-plugin-dialogs": "~1.3.3",
+        "cordova-plugin-file": "~4.3.3",
+        "cordova-plugin-file-transfer": "~1.6.3",
+        "cordova-plugin-whitelist": "1.2.2",
+        "onesignal-cordova-plugin": "^2.1.2"
+    },
+    "cordova": {
+        "plugins": {
+            "cordova-plugin-camera": {},
+            "cordova-plugin-compat": {},
+            "cordova-plugin-dialogs": {},
+            "cordova-plugin-file": {},
+            "cordova-plugin-file-transfer": {},
+            "cordova-plugin-whitelist": {},
+            "onesignal-cordova-plugin": {}
+        }
+    }
+}
