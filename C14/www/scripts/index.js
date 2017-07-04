@@ -10,10 +10,11 @@
 
         var notificationOpenedCallback = function (jsonData) {
             console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+            window.location = "showuser.html?userid=" + jsonData.notification.payload.additionalData.sender;
         };
 
         window.plugins.OneSignal
-            .startInit("<Your One Signal ID>")
+            .startInit("your app id")
             .handleNotificationOpened(notificationOpenedCallback)
             .endInit();
 
